@@ -1,13 +1,16 @@
 ---
 - src: https://github.com/OULibraries/ansible-role-centos7
-  version: v2016-06-29.0
+  version: v2016-08-24.0
   name: OULibraries.centos7
 
 - src: https://github.com/OULibraries/ansible-role-repox
   version: master
   name: OULibraries.repox
 
+- src: https://github.com/OULibraries/ansible-role-apache2
+  version: v2016-08-10.0
+  name: OULibraries.apache2
 
 - src: https://github.com/OULibraries/ansible-role-users
-  version: v2016-06-10.0
+  version: v2016-08-10.0
   name: OULibraries.users

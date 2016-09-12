@@ -3,10 +3,13 @@
   sudo: yes
   vars_files:
     - my-vars.yml
+  
   roles:
-    - OULibraries.centos7
-    - OULibraries.repox
-    - OULibraries.users
+    - { role: OULibraries.centos7, tags: ["centos7"] }
+    - { role: OULibraries.apache2, tags: ["apache2"] }
+    - { role: OULibraries.repox, tags: ["repox"] }
+    - { role: OULibraries.users, tags: ["users"] }
+
   tasks:
     - name: packages for development and testing
       yum:
