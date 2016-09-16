@@ -20,7 +20,7 @@ This Ansible Playbook will install a Repox Development Environment using Vagrant
 5. Copy `my-vars.default.yml` to `my-vars.yml` and insert your particulars.
 6. Modify your local machine's hosts file to include 'repox.vagrant.dev' for 127.0.0.1.
 6. Execute the following command: `vagrant up`.
-7. Point your favorite browser to https://repox.vagrant.dev and login twice using the admin for both user name and password.
+7. Point your favorite browser to https://repox.vagrant.dev and login twice using the credentials you set in my-vars.yml.
 
 ## Usage 
 
