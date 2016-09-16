@@ -13,3 +13,9 @@ ssh_brokers:
   - alias: 'localhost'
     ip: '127.0.0.1'
     dn_suffix: 'localdomain'
+
+httpd_dn_prefix: repox
+httpd_dn_suffix: vagrant.dev
+
+admin_username:
+admin_password: 
