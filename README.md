@@ -38,3 +38,11 @@ Less frequently, you'll may want to reprovision to get the lastest changes, or r
 * `vagrant provision` will re-run the ansible provisioners
 * `vagrant destroy` to delete the VM, in case you want to start over
 
+## Dependencies
+
+* [OU Libraries Centos Role](https://github.com/OULibraries/ansible-role-centos7)
+* [OU LIbraries Repox Role](https://github.com/OULibraries/ansible-role-repox)
+* [OU Libraries Apache Role](https://github.com/OULibraries/ansible-role-apache2)
+* [OU Libraries Users Role](https://github.com/OULibraries/ansible-role-users)
+
+
