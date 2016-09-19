@@ -9,18 +9,15 @@ This Ansible Playbook will install a Repox Development Environment using Vagrant
 * Requires [Ansible](http://docs.ansible.com/ansible/intro_installation.html)
 * Requires [Vagrant](https://www.vagrantup.com/downloads.html). 
 * Requires [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* 
+ 
 
 ## Installation
 
-1. Install Ansible.
-2. Install Vagrant.
-3. Install VirtualBox.
-4. Clone this repo to a local folder.
-5. Copy `my-vars.default.yml` to `my-vars.yml` and insert your particulars.
-6. Modify your local machine's hosts file to include 'repox.vagrant.dev' for 127.0.0.1.
-6. Execute the following command: `vagrant up`.
-7. Point your favorite browser to https://repox.vagrant.dev and login twice using the credentials you set in my-vars.yml.
+1. Clone this repo to a local folder.
+2. Copy `my-vars.default.yml` to `my-vars.yml` and insert your particulars.
+3. Modify your local machine's hosts file to include 'repox.vagrant.dev' for 10.255.255.10.
+4. Execute the following command: `vagrant up`.
+5. Point your favorite browser to https://repox.vagrant.dev and login twice using the credentials you set in my-vars.yml.
 
 ## Usage 
 
@@ -40,9 +37,9 @@ Less frequently, you'll may want to reprovision to get the lastest changes, or r
 
 ## Dependencies
 
-* [OU Libraries Centos Role](https://github.com/OULibraries/ansible-role-centos7)
+* [OU Libraries Centos7 Role](https://github.com/OULibraries/ansible-role-centos7)
 * [OU LIbraries Repox Role](https://github.com/OULibraries/ansible-role-repox)
-* [OU Libraries Apache Role](https://github.com/OULibraries/ansible-role-apache2)
+* [OU Libraries Apache2 Role](https://github.com/OULibraries/ansible-role-apache2)
 * [OU Libraries Users Role](https://github.com/OULibraries/ansible-role-users)
 
 
