@@ -2,6 +2,20 @@
 # Style of environment to build: vagrant, test or prod
 environment_name: "vagrant"
 
+# For Apache reverse proxy
+httpd_dn_prefix: repox
+httpd_dn_suffix: vagrant.dev
+
+# Local DB config
+repox_mariadb_username: repox
+repox_mariadb_password: repox
+repox_mariadb_database: repoxdb
+repox_mariadb_privileges: ALL
+
+# Repox / reverse proxy credentials
+repox_admin_username: admin
+repox_admin_password: admin
+
 # Local credentials
 # additional shell accounts
 users:
@@ -9,6 +23,7 @@ users:
     groups: 'wheel'
     pubkey: 'ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAtkaGGkonm3HJmRoupKgM0A04uZu3aPhFyWmyMWCHTk1TtDskTgO0krOgUKuxAB2G/d39Xz6oISL9+dQdZt5aEJK7WoHpkK8l8xXfrIJ8OiWuJ+IRygjjLsib8tVTRsEIvMrQUtnhGzVNM7lQNXaEviGmR+ZunH68fv/QpomR5qW/veLFsR0KQLnd8yoG2+Tm8EdYouDcUPTS1nr9XdPSWGcsvpDq48JdxSmtXXC/8NHfdhpmCMmoC/IXbFl7typeLd9gt7EFvqOLWEbysEF3hD6hMAV3MEWaDnhf25n2cUgdAvdk086REgg2bXx1dBdeSi+wq5MadfP80UuPuaN2lw== libacct@ou.edu'
 
+# SSH brokers, if any.
 ssh_brokers:
   - alias: 'localhost'
     ip: '127.0.0.1'
