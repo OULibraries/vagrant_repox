@@ -7,6 +7,7 @@
   roles:
     - { role: OULibraries.centos7, tags: ["centos7"] }
     - { role: OULibraries.apache2, tags: ["apache2"] }
+    - { role: OULibraries.postfix-mta, tags: ["postfix-mta"] }
     - { role: OULibraries.repox, tags: ["repox"] }
     - { role: OULibraries.users, tags: ["users"] }
 
