@@ -4,7 +4,7 @@
   name: OULibraries.centos7
 
 - src: https://github.com/OULibraries/ansible-role-repox
-  version: dev-cone-proxy
+  version: master
   name: OULibraries.repox
 
 - src: https://github.com/OULibraries/ansible-role-apache2
