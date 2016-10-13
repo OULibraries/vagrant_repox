@@ -9,6 +9,7 @@
     - { role: OULibraries.apache2, tags: ["apache2"] }
     - { role: OULibraries.postfix-mta, tags: ["postfix-mta"] }
     - { role: OULibraries.repox, tags: ["repox"] }
+    - { role: OULibraries.ngrok, tags: ["ngrok"] }
     - { role: OULibraries.users, tags: ["users"] }
 
   tasks:

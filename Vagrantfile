@@ -3,11 +3,11 @@
 
 Vagrant.configure(2) do |config|
   config.vm.box = "geerlingguy/centos7"
-  config.vm.network "private_network", ip: "10.255.255.10"
-  config.vm.hostname = "repox.vagrant.dev"
-  # config.vm.network "forwarded_port", guest:8080, host:8080 # Tomcat
+  #config.vm.network "private_network", ip: "10.255.255.10"
+  #config.vm.hostname = "repox.vagrant.dev"
+  config.vm.network "forwarded_port", guest:8080, host:8080 # Tomcat
   # config.vm.network "forwarded_port", guest:80, host:80 # Apache
- # config.vm.network "forwarded_port", guest:443, host:443 # Apache
+  config.vm.network "forwarded_port", guest:443, host:8443 # Apache
 
 
   config.vm.provider "virtualbox" do |v|

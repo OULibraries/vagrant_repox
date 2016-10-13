@@ -15,6 +15,10 @@
   version: master
   name: OULibraries.postfix-mta
 
+- src: https://github.com/OULibraries/ansible-role-ngrok
+  version: v2016-04-08.0
+  name: OULibraries.ngrok
+
 - src: https://github.com/OULibraries/ansible-role-users
   version: v2016-08-10.0
   name: OULibraries.users
