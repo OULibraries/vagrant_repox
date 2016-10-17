@@ -1,18 +1,22 @@
 ---
 - src: https://github.com/OULibraries/ansible-role-centos7
-  version: master
+  version: v2016-10-17.0
   name: OULibraries.centos7
 
 - src: https://github.com/OULibraries/ansible-role-repox
-  version: master
+  version: v2016-10-17.1
   name: OULibraries.repox
 
 - src: https://github.com/OULibraries/ansible-role-apache2
-  version: master
+  version: v2016-10-17.0
   name: OULibraries.apache2
 
+- src: https://github.com/OULibraries/ansible-role-mariadb
+  version: v2016-09-26.0
+  name: OULibraries.mariadb
+
 - src: https://github.com/OULibraries/ansible-role-postfix-mta
-  version: master
+  version: v2016-10-17.0
   name: OULibraries.postfix-mta
 
 - src: https://github.com/OULibraries/ansible-role-ngrok
